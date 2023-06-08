@@ -43,4 +43,4 @@ for item in data:
 # создание XML-файла
 tree = ET.ElementTree(root)
 ET.indent(tree, space='\t', level=0)
-tree.write('result_data/output.xml', encoding='utf-8', xml_declaration=True)
+tree.write('result_data/output_task1.xml', encoding='utf-8', xml_declaration=True)
